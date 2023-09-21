@@ -1,0 +1,45 @@
+.detail_Navbar_Link .active
+{
+    border: 1px solid rgb(30, 96, 150);
+    border-bottom: none;
+    border-right: none;
+    border-top: none;
+    padding: 5px;
+  
+}
+li
+{
+    list-style: none;
+    padding: 5px;
+}
+label
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#work_exp_table td
+{
+    padding: 5px;
+
+    text-align: center;
+    border: 1px solid black;
+}
+#work_exp_table 
+{   width: 50%;
+    border: 1px solid grey;
+}
+
+.crope_img
+{
+
+position: fixed;
+width: 100%;
+height: 100%;
+background-color: aliceblue;
+z-index: 1;
+display: none;
+text-align: center;
+
+}
+

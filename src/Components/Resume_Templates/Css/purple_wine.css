@@ -1,0 +1,21 @@
+/* education css */
+#purple_wine td, #purple_wine tr,#purple_wine th
+{
+    border: 1px solid #d400ff;
+    padding: 5px;
+}
+table
+{
+    margin: auto;
+
+    margin-top: 20px;
+    align-self: center;
+}
+
+.templates:hover .templates-hover
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

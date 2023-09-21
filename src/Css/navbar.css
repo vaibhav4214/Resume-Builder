@@ -1,0 +1,15 @@
+
+
+@keyframes navbar-come-animation
+{
+    from{margin-left: -50%;}
+    to{margin-right: 50%;}
+}
+
+@keyframes navbar-close-animation
+{
+    from{margin-right: 50%;}
+    to{margin-left: -50%;}
+}
+
+

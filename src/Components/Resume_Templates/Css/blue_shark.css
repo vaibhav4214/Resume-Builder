@@ -1,0 +1,21 @@
+/* education css */
+#bule_shark td,#bule_shark tr,#bule_shark th
+{
+    border: 1px solid #00eeff;
+    padding: 5px;
+}
+#bule_shark table
+{
+    margin: auto;
+
+    margin-top: 20px;
+    align-self: center;
+}
+
+.templates:hover .templates-hover
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
