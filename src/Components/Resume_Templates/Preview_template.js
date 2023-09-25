@@ -24,7 +24,7 @@ const Preview_template=()=>
     const navigate=useNavigate()
     const location=useLocation()
     const { register, handleSubmit, formState: { errors } } = useForm()
-    const previewData = JSON.parse(localStorage.getItem("previousData"))
+    const previewData = JSON.parse(localStorage.getItem("previousData")) ? JSON.parse(localStorage.getItem("previousData")) : []
     let template_val=""
     if(location.state.pageName=="preview-template")
     {
