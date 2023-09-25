@@ -16,7 +16,6 @@ const Work_Experience=()=>
     const DummyData=JSON.parse(localStorage.getItem("DummyData")) ? JSON.parse(localStorage.getItem("DummyData")) :""
     const dispatch=useDispatch()
     const [afterDeleteExp,setAfterDeleteExp]=useState(1)
-
     const { register, handleSubmit, formState: { errors } } = useForm()
     
     const next_experience=(e)=>
